@@ -1,0 +1,35 @@
+{
+  "name": "vite-vue3-metatron-template",
+  "version": "0.0.1",
+   "description": "A Vite + Vue3 + Meta boilerplate",
+   "author": {
+    "name": "Baruch Sheffi",
+    "email": "baruch@metatron.co.il"
+   },
+  "private": false,
+  "scripts": {
+    "dev": "vite  --config ./config/config.dev.js",
+    "build": "vite --config ./config/config.build.js build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "pinia": "^2.0.36",
+    "vite": "^4.3.5",
+    "vue": "^3.3.2",
+    "vue-meta": "^3.0.0-alpha.10",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1"
+  }
+}
