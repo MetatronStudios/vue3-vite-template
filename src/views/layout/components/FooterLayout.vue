@@ -1,12 +1,14 @@
 <template>
    <div>
-      About View
+      logo
+      link
+      another logo
    </div>
 </template>
 
 <script>
 export default {
-   name: 'MetatronAboutView',
+   name: 'MetatronFooterLayout',
    setup() {
       return {};
    },

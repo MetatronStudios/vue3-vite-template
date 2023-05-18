@@ -1,6 +1,8 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import { createMetaManager } from 'vue-meta';
+import '@csstools/normalize.css';
+import './assets/styles/main.css';
 
 import App from './App.vue';
 import router from './router';

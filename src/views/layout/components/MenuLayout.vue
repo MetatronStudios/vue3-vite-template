@@ -1,12 +1,13 @@
 <template>
    <div>
-      About View
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
    </div>
 </template>
 
 <script>
 export default {
-   name: 'MetatronAboutView',
+   name: 'MetatronMenuLayout',
    setup() {
       return {};
    },
